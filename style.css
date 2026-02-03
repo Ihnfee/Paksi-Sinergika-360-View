@@ -828,12 +828,3 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
-/* Force the scene list to stay hidden on start */
-#sceneList {
-  transform: translateX(-100%) !important;
-}
-
-/* Allow it to open ONLY when the 'show-scene-list' class is active */
-body.show-scene-list #sceneList {
-  transform: translateX(0) !important;
-}
